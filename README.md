@@ -100,13 +100,7 @@ uv run 2.4agent.py
 问答效果示例：
 
 ```
-
-===== 转专业知识库问答助手（输入 exit 退出）=====
-
-请输入你的问题: 休学期间可以转专业吗？
-
-🤖 回答：不可以。根据《转专业管理办法》第三条第 2 款，正在休学或保留学籍的学生不得转专业。
-```
+<img width="906" height="489" alt="e94a8c9f76b7e7f83d81d7cbcdc3fe80" src="https://github.com/user-attachments/assets/4142a031-63c3-4fc3-8f9b-77bf64e73653" />
 
 ---
 

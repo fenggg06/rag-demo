@@ -100,7 +100,7 @@ uv run 2.4agent.py
 问答效果示例：
 
 ```
-<img src="./demo.png" alt="项目截图" width="600"/>
+<img src="./e94a8c9f76b7e7f83d81d7cbcdc3fe80.png" alt="项目截图" width="600"/>
 ===== 转专业知识库问答助手（输入 exit 退出）=====
 
 请输入你的问题: 休学期间可以转专业吗？

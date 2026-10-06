@@ -1,9 +1,11 @@
 # 转专业知识库问答系统（RAG）
 
+我的一个练手项目
+
 基于 **RAG（检索增强生成）** 的高校转专业政策问答系统。将学校教务处发布的《转专业管理办法》抓取入库，
 通过向量检索 + 大模型生成，实现**有据可依、可溯源**的政策问答，避免大模型凭空编造规章制度。
 
-> 数据来源示例：太原工业学院教务处《转专业管理办法》（太工院发〔2022〕151号）
+> 数据来源示例：xxxx学院教务处《转专业管理办法》
 
 ---
 
@@ -52,7 +54,7 @@
 ### 2. 安装依赖
 
 ```bash
-git clone <你的仓库地址>
+git clone <(https://github.com/fenggg06/rag-demo)>
 cd agent-uv
 uv sync
 ```
@@ -120,8 +122,6 @@ uv run 2.4agent.py
 └── pyproject.toml        # 依赖与项目元数据
 ```
 
-> 注：仓库只上传转专业知识库问答系统（`2.x`）相关文件；`1.x` 系列为本人在 LangChain 学习阶段的
-> 示例脚本（基础模型调用、工具 Agent、RAG demo），不包含在本仓库中。
 
 ---
 
@@ -132,8 +132,7 @@ uv run 2.4agent.py
 再依次重跑 ①②③ 即可。若源文档已是本地文件，直接用 `TextLoader` 读取，跳过第 ① 步。
 （注意同时改写 `2.2qiefeng.py` 与 `2.3cunchu.py` 中的 `WebBaseLoader`/`TextLoader` 路径。）
 
-**Q：`zhuanzhuanye_db/` 需要一起提交吗？**
-仓库里已包含，好处是 clone 后配置好 Key 就能直接问答。若政策原文更新，重跑 `2.3cunchu.py` 覆盖即可。
+
 
 **Q：为什么检索结果不理想？**
 优先调整 `2.2qiefeng.py` / `2.3cunchu.py` 中的 `chunk_size` 与 `chunk_overlap`。
@@ -141,6 +140,3 @@ uv run 2.4agent.py
 
 ---
 
-## License
-
-MIT
